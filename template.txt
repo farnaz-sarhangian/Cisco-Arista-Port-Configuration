@@ -1,0 +1,7 @@
+interface {PORT}
+  description {DESC}
+  switchport
+  switchport access vlan {VLAN}
+  spanning-tree port type edge
+  spanning-tree bpduguard enable
+  no shutdown
