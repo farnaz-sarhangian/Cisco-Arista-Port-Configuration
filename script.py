@@ -26,6 +26,5 @@ with open('MOP.txt', 'w') as output_file:
         # Add an empty line after each entry
         output_file.write('\n') 
 
-
 # Print a message when done
 print("Output file has been saved as 'MOP.txt'")
